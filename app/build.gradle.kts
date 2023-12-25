@@ -111,6 +111,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.palette)
     implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.lifecycle.runtime)
 
     // Compose Ui
