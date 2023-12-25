@@ -1,9 +1,9 @@
 package com.app.dummyapi
 
+import android.app.Application
 import android.content.Context
-import androidx.multidex.MultiDexApplication
 
-class MyApplication : MultiDexApplication() {
+class MyApplication : Application() {
 
     companion object {
         var myApplication: MyApplication? = null

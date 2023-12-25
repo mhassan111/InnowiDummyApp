@@ -91,6 +91,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
 
 dependencies {
 
+    testImplementation("junit:junit:4.12")
     // Compose
     val composeBom = platform(libs.androidx.compose.bom)
     implementation(composeBom)
